@@ -2,39 +2,48 @@
 
 A modern, responsive portfolio website showcasing my professional experience, projects, and skills.
 
+## 🌐 Live Demo
+
+Visit the live site: [https://saphalsapkota.github.io/protfolio/](https://saphalsapkota.github.io/protfolio/)
+
 ## Features
 
 ✨ **Modern Design**
-- Clean, professional interface with gradient accents
+- Clean, professional interface with cyan/purple gradient theme
 - Smooth animations and transitions
 - Responsive design for all devices
+- Custom cursor effects
 
 🎨 **Sections**
-- **Hero**: Eye-catching introduction with social links
-- **About**: Professional summary and quick stats
-- **Experience**: Timeline view of work history
-- **Projects**: Showcase of completed projects with descriptions
-- **Skills**: Visual representation of technical skills
+- **Hero**: Eye-catching introduction with professional photo and social links
+- **About**: Professional summary and achievement stats
+- **Experience**: Interactive timeline view of work history
+- **Projects**: Showcase of completed projects with descriptions and tech stacks
+- **Skills**: Animated progress bars for technical skills
 - **Contact**: Easy ways to get in touch
 
 🚀 **Interactive Elements**
 - Smooth scrolling navigation
 - Active section highlighting
-- Animated skill bars
-- Hover effects on cards
+- Animated skill bars with shimmer effects
+- 3D hover effects on cards
 - Mobile-friendly hamburger menu
 - Back-to-top button
+- Custom animated cursor
 
 ## Technologies Used
 
 - HTML5
-- CSS3 (with CSS Variables)
+- CSS3 (with CSS Variables & Animations)
 - JavaScript (Vanilla)
 - Font Awesome Icons
 
 ## Quick Start
 
-1. Clone or download this repository
+1. Clone this repository
+   ```bash
+   git clone https://github.com/saphalsapkota/protfolio.git
+   ```
 2. Open `index.html` in your web browser
 3. No build process required!
 
@@ -46,6 +55,8 @@ portfolio/
 ├── index.html          # Main HTML file
 ├── styles.css          # Stylesheet with responsive design
 ├── script.js           # Interactive JavaScript functionality
+├── images/             # Image assets
+│   └── saphal.jpg      # Profile photo
 └── README.md           # Project documentation
 ```
 
@@ -56,9 +67,9 @@ Edit the CSS variables in `styles.css` to change the color scheme:
 
 ```css
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --dark-bg: #1a1a2e;
+    --primary-color: #00d4ff;
+    --secondary-color: #7c3aed;
+    --dark-bg: #0a0e27;
     /* ... more variables */
 }
 ```
@@ -70,29 +81,20 @@ Update your information directly in `index.html`:
 - Projects in the projects section
 - Skills and technologies
 
-### Profile Image
-Replace the Font Awesome icon in the hero section with your actual photo:
-
-```html
-<div class="profile-image">
-    <img src="your-photo.jpg" alt="Saphal Sapkota">
-</div>
-```
-
 ## Browser Support
 
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-- Opera
+- ✅ Chrome (recommended)
+- ✅ Firefox
+- ✅ Safari
+- ✅ Edge
+- ✅ Opera
 
 ## Performance
 
 - Optimized with debounced scroll events
 - CSS animations for smooth performance
-- Lazy loading for images (when added)
 - Minimal external dependencies
+- Fast loading times
 
 ## License
 
